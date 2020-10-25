@@ -1,0 +1,168 @@
+body {
+	background-color: #0D101B;
+	overflow-x: hidden;
+}
+
+header #top {
+	position: absolute;
+	width: 100%;
+	height: 13%;
+	left: 0px;
+	top: 0px;
+	background-image: url("images\\stars.jpg");
+}
+
+header #top p {
+	color: #F2C94C;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 1%;
+	line-height: 150%;
+	letter-spacing: 1em;
+	font-size: 60px;
+	font-family: 'Share Tech', sans-serif;
+}
+
+form input{
+	background-color: black;
+	color: white;
+}
+
+::placeholder {
+	color: white;
+}
+
+header #side{
+	position: absolute;
+	width: 8%;
+	height: 100%;
+	right: 0px;
+	top: 0px;
+	align-items: right;
+	background-image: url("images\\stars.jpg");
+}
+
+header #side p {
+	color: #F2C94C;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
+	letter-spacing: 0.8em;
+	font-size: 60px;
+	font-family: 'Share Tech', sans-serif;
+	margin-top: 1em;
+	margin-left: 0.5em;
+
+}
+
+div.welcome {
+	position: fixed;
+	width: 39%;
+	height: 40%;
+	left: 3%;
+	top: 15%;
+
+	font-family: 'Palanquin', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 120%;
+
+	color: #F2C94C;
+	mix-blend-mode: normal;
+	mix-blend-mode: hard-light;
+	border: 1px solid #F2C94C;
+	box-sizing: border-box;
+	border-radius: 34px;
+	padding: 0.5em;
+
+	}
+
+div.welcome #input p {
+	margin-top: 0.1em;
+	margin-bottom: 1em;
+}
+
+div.other-info {
+	position: fixed;
+	width: 39%;
+	height: 36%;
+	left: 3%;
+	top: 60%;
+
+	font-family: 'Palanquin', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 170%;
+	align-items: center;
+	
+
+	color: #F2C94C;
+
+	mix-blend-mode: hard-light;
+	border: 1px solid #F2C94C;
+	box-sizing: border-box;
+	border-radius: 34px;
+	
+}
+
+div.other-info ul {
+	margin-top: 0;
+}
+
+div.other-info p {
+	margin: 5px;
+	text-align: left;
+}
+
+div.other-info #disclaimer p{
+	font-size: 1%;
+	position: absolute;
+	left: 40px;
+}
+
+
+div.other-info li a{
+	position: relative;
+	margin-right: 10%;
+}
+
+a:link {
+	color: #F2C94C;
+}
+
+a:visited {
+	color: #F2C94C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+div.video {
+	position: absolute;
+	width: 40%;
+	left: 51%;
+	top: 15%;
+}
+
+label.search a {
+	color: white;
+	font-size: 75%
+
+}
+
+ul li a {
+	font-size: 100%;
+}
+
+div.apod img {
+	position: absolute;
+	width: 33%;
+	left: 54%;
+	top: 60%;
+	height: 35%;
+
+	border-radius: 34px;
+}
+

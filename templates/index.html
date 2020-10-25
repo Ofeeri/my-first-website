@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Space Weight</title>
+  <link rel="stylesheet" type="text/css" href="static/index-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<span id="top"><p>Welcome to Space</p></span>
+		<span id="side"><p>Weight</p></span>
+	</header>
+	<div class="welcome">
+		<p id="input">Ever wondered how much you’ll weigh on other planets? 
+			How about when you relocate to Mars?
+			Maybe the result means you can put off that diet, probably not.
+			Input your weight and we’ll see.
+			
+			<form action="/results" method="POST">
+				<label >Your weight:</label>
+				<input type="text" name="weight" placeholder="kgs or lbs">
+				<input type="submit" value="submit">
+			</form>
+	</div>
+	
+	<div class="video">
+		<iframe width="583" height="315" src="https://www.youtube.com/embed/TRAbZxQHlVw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<div class="other-info">
+		<p>You may also be interested in:</p>
+		<ul>
+			<li><a href="https://www.nasa.gov/multimedia/imagegallery/iotd.html">Nasa image of the day</a></li>
+			<li><a href="https://www.spacex.com/human-spaceflight/mars/">SpaceX Mars plan</a></li>
+			<li><a href="https://www.nytimes.com/section/science/space"> NY Times space news</a></li>
+		</ul>
+	</div>
+	<div class="apod">
+		<img src="{{image_url}}" alt="{{title}} image" width="385", height="180" title="{{title}}">
+	</div>
+	
+</body>
+</html>

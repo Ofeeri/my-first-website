@@ -1,0 +1,84 @@
+body {
+	background-color: #A9BDBD;
+	margin: 0; 
+
+}
+
+div h2 {
+
+	font-family: 'Share Tech', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 4em;
+
+	align-items: center;
+	text-align: center;
+	margin-bottom: 0px;
+
+	color: #000000;
+}
+
+section.background {
+	height: 10%;
+	background: #0D101B;
+	border-radius: 189px 0px 0px 189px;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	align-items: center;
+}
+
+div.image-back {
+	background-image: url("images\\stars.jpg");
+	border-radius: 50%; 
+}
+
+img {
+	position: relative;
+    height: 50%;
+    width: 30%;
+    border-radius: 50%;
+    margin-top: 5%;
+	background: #080809;
+}
+
+div.saturn img {
+	margin-top: 6em;
+	width: 60%;
+}
+ 
+div #weight  {
+	position: absolute;
+	color: #F2C94C;
+	text-align: left;
+	left: 3%;
+	margin-top: 9%;
+
+
+	font-family: 'Palanquin', sans-serif;
+	font-style: normal;
+	mix-blend-mode: normal;
+	mix-blend-mode: hard-light;
+	font-size: 250%;
+
+}
+
+div ul {
+	position: absolute;
+	color: #F2C94C;
+	text-align: left;
+	right: 1%;
+	margin-top: -7%;
+
+
+}
+
+div ul li {
+	font-size: 100%;
+	color: #F2C94C;
+	font-family: 'Palanquin', sans-serif;
+	font-style: normal;
+	mix-blend-mode: normal;
+	mix-blend-mode: hard-light;
+
+}
